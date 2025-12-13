@@ -3,7 +3,7 @@ cask "beans" do
   name "beans"
   desc "Agentic-first issue tracker"
   homepage "https://github.com/hmans/beans"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "beans" do
   on_macos do
     on_intel do
       url "https://github.com/hmans/beans/releases/download/v#{version}/beans_Darwin_x86_64.tar.gz"
-      sha256 "ee501896c9c9f3609f352b525d6e366533e8e14fd387fce36c89b21595be8841"
+      sha256 "44e43ca73d9c9b77c5a53ef59c793788d515cce4aceac4d2bb8ae45adb45fa3f"
     end
     on_arm do
       url "https://github.com/hmans/beans/releases/download/v#{version}/beans_Darwin_arm64.tar.gz"
-      sha256 "8a79959d984d6d1cc1fe3238308ce9c2aaeff7d6e076801ac0c6881bed49e573"
+      sha256 "fd6e0f918a58a095a0bc912c4d688c9f7ab12481714f15d3a1152caa4c9bac03"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hmans/beans/releases/download/v#{version}/beans_Linux_x86_64.tar.gz"
-      sha256 "87920d0acb1c566a8b510c9614da208e4f28d64ae4e181d9d09153d2ed0c30ae"
+      sha256 "40452957c347f6a71c2cad3f3f5cd33ba2cda041f33eafc49aed159356b410d8"
     end
     on_arm do
       url "https://github.com/hmans/beans/releases/download/v#{version}/beans_Linux_arm64.tar.gz"
-      sha256 "7b7193b8ab5e1f311307916463b64e48e7b82a52fdbd2084080f75c4c60c6164"
+      sha256 "ac7a1c9905b2e7f115e5ed1d3ddd444af448795ef14944155bc84a2fd3c0c683"
     end
   end
 
